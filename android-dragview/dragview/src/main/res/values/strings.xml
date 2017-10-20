@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_network_or_server_exception">网络不可用或服务错误</string>
+    <string name="error_robot_slide">机器人滑动</string>
+    <string name="error_params_exp">参数异常</string>
+    <string name="error_params_encoding_fmt">参数编码格式错误</string>
+    <string name="error_appid_illegal">appid非法</string>
+
+    <string name="sv_hint_succeed">校验成功</string>
+    <string name="sv_hint_failed">校验失败,请重新校验</string>
+    <string name="sv_hint_validating">正在校验中...</string>
+    <string name="sv_hint_init">请向右滑动校验</string>
+</resources>
