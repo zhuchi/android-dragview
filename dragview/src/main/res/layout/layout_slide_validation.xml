@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+ 	<com.payegis.sdk.slidervalidation.slider.CustomSeekBar
+     	android:id="@+id/pgs_slider_sb"
+     	android:layout_width="match_parent"
+     	android:layout_height="@dimen/pgs_slider_thumb_height"
+     	android:maxHeight="100dp"
+     	android:max="100"
+     	android:progress="0"
+     	android:thumbOffset="0dp" />
+
+	 <ImageView
+	     android:id="@+id/pgs_slider_iv"
+	     android:layout_width="wrap_content"
+	     android:layout_height="@dimen/pgs_slider_thumb_height"
+	     android:layout_alignParentRight="true"
+	     android:visibility="gone"/>
+
+</merge>

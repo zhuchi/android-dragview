@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="SldValLayout">
+        <attr name="progressDrawable" format="reference" />
+        <attr name="failedProgressDrawable" format="reference" />
+        <attr name="thumb" format="reference" />
+        <attr name="text" format="string" />
+        <attr name="succeedDrawable" format="reference" />
+        <attr name="failedDrawable" format="reference" />
+        <attr name="loadingDrawable" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- loading动画
+ android:drawable设置旋转的图片 -->
+<animated-rotate 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_validating"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:visible="true"/>
+
+
+<!--
+<rotate 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/pgs_ic_validating_1"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="1000"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:repeatMode="restart"
+    android:repeatCount="-1"></rotate>
+
+ -->
